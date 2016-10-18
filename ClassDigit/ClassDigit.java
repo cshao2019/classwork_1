@@ -128,7 +128,7 @@ public class ClassDigit
 		{
 			return true;
 		}
-		if(s.substring(0,1).equals(s.substring(s.length() - 1)))
+		if(s.substring(0,1).equals(s.substring(s.length() - 1))) //need to use .equals bc obj ref not primitive(==) !!
 		{
 			return isPalindrome_r(s.substring(1,s.length() - 1));
 			
@@ -151,7 +151,7 @@ public class ClassDigit
 			String c = s.substring(0,1);
 			String l = s.substring(s.length() - 1);
 			
-			if(c.equals(l))
+			if(c.equals(l)) //need to use .equals bc obj ref not primitive(==) !
 			s = s.substring(1,s.length() - 1);
 			else
 			return false;
