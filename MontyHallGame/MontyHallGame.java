@@ -63,7 +63,7 @@ public class MontyHallGame
 		//testing 
 		System.out.println("The user wants to switch " + answer);
 		
-		if(answer.equals("yes")
+		if(answer.equals("yes"))
 		{
 			user_pick = doorToReveal1(user_pick, reveal);
 		
