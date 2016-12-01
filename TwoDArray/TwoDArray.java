@@ -24,7 +24,7 @@ public class TwoDArray
 		String [][] arr1 = new String [3][3];
 		printArray(arr1);
 		
-		printArray(create2D(5));
+		printArray(create2D(7));
 				
 		
 	}
@@ -155,8 +155,9 @@ public class TwoDArray
 	*/
 	public static void printArray(int [][] a)
 	{
+
 		
-		for(int count = 0; count < a.length; count++)
+		for(int count = 0; count < a[0].length; count++)
 		{
 			System.out.print(" --");
 		}
@@ -166,6 +167,7 @@ public class TwoDArray
 			System.out.print("|");
 			for(int col = 0; col < a[row].length; col++)
 			{
+				
 				if(a[row][col] < 10)
 				{
 					System.out.print(a[row][col] + " |");
@@ -176,7 +178,7 @@ public class TwoDArray
 				}
 			}
 			System.out.println();
-			for(int count = 0; count < a.length; count++)
+			for(int count = 0; count < a[0].length; count++)
 			{
 				System.out.print(" --");
 			}
@@ -184,5 +186,7 @@ public class TwoDArray
 	
 		}
 	}	
+
+		
 
 }
