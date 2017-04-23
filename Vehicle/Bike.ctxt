@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bike()
+comment1.params=n\ m\ x
+comment1.target=Bike(int,\ int,\ int)
+comment2.params=c
+comment2.target=boolean\ compareTo(Comparable)
+numComments=3
